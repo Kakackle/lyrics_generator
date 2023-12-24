@@ -118,3 +118,12 @@ kroki:
 * https://www.scielo.org.mx/pdf/cys/v24n1/1405-5546-cys-24-01-17.pdf
 * https://arxiv.org/ftp/arxiv/papers/2308/2308.00939.pdf
 * https://becominghuman.ai/generative-adversarial-networks-for-text-generation-part-2-rl-1bc18a2b8c60
+
+### research reseults
+* https://aclanthology.org/2021.acl-long.6.pdf - jakis pomysl generowania dan od prawej do lewej a nie lewej do prawej, by rozpoczynac od rymu + jakos wykorzystanie n-gramow zeby uwzglednic tez kilka slow przed ostatnim w rymach + jakies pomysly na metricsy **+ inne papiery linkowane zwiazane z tematem**
+
+* https://colab.research.google.com/drive/12g07FS2WkNctNy_bYb7a5ZNFAsJcN0dz?usp=sharing&hl=en#scrollTo=Gxk7rxv50APc - jakis notebook z phonetic wykrywaniem rymow
+
+* https://replicate.com/blog/turn-your-llm-into-a-poet - tez wspomina fajne papiery,z enkodowaniem informacji o sylabach, koncach zdan itd
+
+* https://towardsdatascience.com/generating-haiku-with-deep-learning-dbf5d18b4246
