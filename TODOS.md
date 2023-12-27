@@ -126,4 +126,4 @@ kroki:
 
 * https://replicate.com/blog/turn-your-llm-into-a-poet - tez wspomina fajne papiery,z enkodowaniem informacji o sylabach, koncach zdan itd
 
-* https://towardsdatascience.com/generating-haiku-with-deep-learning-dbf5d18b4246
+* https://towardsdatascience.com/generating-haiku-with-deep-learning-dbf5d18b4246 - dodaje dodatkowe funkcje jako czesc sieci generujacej slowa i potem cale haiku, konwertujaca rezultaty na strukture haiku (5 sylab - 7 - 5) + musi dzielic na sylaby zeby to robic, generalnie dziala, wiec fajnie gdybys chcial iles sylab na zdanie zeby ci dzielilo
