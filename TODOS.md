@@ -13,7 +13,7 @@ nauka: przy uczeniu na slowach, window musi byc mniejszy, zeby zdania mialy sens
 za duzy traci cokolwiek, kontekst
 ale tez nie za maly, bo chwyta nie to co trzeba
 7. TODO: okej, dziala ze slowami, ale chwyta apostrofy itd, moze by je usunac itp i zoaczyc
-8. TODO: a mzoe jakis dropout itd
+8. TODO: a mzoe jakis dropout wiekszy itd
 9. TODO: temperatura
 10. TODO: ocena zdan
 11. TODO: stanford, nlpoverview

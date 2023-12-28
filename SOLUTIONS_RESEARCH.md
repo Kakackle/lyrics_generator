@@ -1,3 +1,22 @@
+### To Research
+* language modeling (w kontekscie predicting words before, between, windows)
+* Sequence 2 sequence (for generation), moze dla generacji rymow zawierajacych rym do jakiegos slowa ktore sam wymyslisz itd - mozna je takze nazywac **conditioned generation models**
+* Attention for text generation etc - teoretycznie, uwzgledniajac nie tylko koncowe wyjscie ale tez poprzednie stany, uczac sie wlasnych attention vector/weights/alignment, tworzy dodatkowy uwzgledniany context / context vector dla slowa itd / tzw. glimpse, ktory sluzy np. dekoderowi jako wejscie, z niego tworzony jest output
+* Bidirectional RNNs for text gen - obserwuje przeszlosc i przyszlosc, moze byc to GRU, LSTM itd
+* content-aware, location-aware
+* multiheaded attention - track different region of the input, self-attention
+* metody oceny - n-gram score costam / bleu score
+* jakies porownywanie zdan / podobienstwo do oceny jak nasze teksty wygenerowane sa podobne do oryginalow
+
+* ocenianie generowanych tekstow pod katem np "fluency, relevance, diversity, and originality"
+
+
+
+
+### Projekty
+
+* https://github.com/robbiebarrat/rapping-neural-network - giga ciekawy, przemyslany projekt, wykorzystujacy markov chains, wykrywanie sylab, branie slowa i generowanie potencjalnych rymow, koncowek, uwzglednianie dlugosci linijek (16 sylab etc), model na LSTM bierze nie tylko generowane slowa, ale tez rhyme index, odrzuca konczace zdania nie-rymy itd i to wszystko robi na podstawie pierwszej linijki lub linijek ktore mu podasz. Generalnie nie rozumiem, bo bardzo low level, ale ciekawe w chuj + kwestia penalizowania, oceniania modelu jesli nie zwraca rymow itd
+
 ### GANs research
 * https://github.com/williamSYSU/TextGAN-PyTorch
 * https://arxiv.org/pdf/2212.11119.pdf
