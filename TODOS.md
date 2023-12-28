@@ -8,7 +8,14 @@
 
 =============================================
 
-6. TODO: word embeddings zamiast character
+6. ~~word embeddings zamiast character~~
+nauka: przy uczeniu na slowach, window musi byc mniejszy, zeby zdania mialy sens
+za duzy traci cokolwiek, kontekst
+ale tez nie za maly, bo chwyta nie to co trzeba
+7. TODO: okej, dziala ze slowami, ale chwyta apostrofy itd, moze by je usunac itp i zoaczyc
+8. TODO: a mzoe jakis dropout itd
+9. TODO: temperatura
+10. TODO: ocena zdan
 7. TODO: parametryzacja typu ile znakow / slow rozwaza przed generacja kolejnego, jaki dropout itd - dokonuj jakiegos porownania
 8. TODO: cos z wykorzystaniem pretrained modeli jak GPT2
 9. TODO: z https://medium.com/@david.campion/text-generation-using-bidirectional-lstm-and-doc2vec-models-1-3-8979eb65cb3a: dodaj jak tutaj dodatkowa funkcje samplowania z temperatura (+ poszukaj moze wytlumaczenia matematycznie tej temperatury), poza tym words, sprobuj bidirectional lstm itd
